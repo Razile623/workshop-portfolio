@@ -1,0 +1,135 @@
+
+@font-face{
+    font-family: 'brandon-grotesque';
+    src: url('assets/fonts/Brandon_bld.otf') format('opentype');
+}
+
+body{
+    background-color: black;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,13,13,0) 50%, rgba(0,212,255,1) 100%);  */
+    background-image: url("./assets/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+header{
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+}
+nav{
+    position: sticky;
+    display: block ;
+    width: 95vw;
+    height: 10vh;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    text-align: center;
+}
+a{
+    color: black;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(226, 224, 204);
+    border-radius: 5%;
+    width: 10vw;
+    height: 35%;
+}
+#home{
+    padding: .9%;
+    width: 95vw;
+    height: 50vh;
+    
+}
+img{
+    position: relative;
+    display: inline-block;
+    height: 30vh;
+    width: 15vw;
+    border-radius: 50%;
+    left: 40%;
+    border: 5px solid white;
+}
+#circle{
+    background-color: green;
+    position: relative;
+    display: inline-block;
+    height: 4vh;
+    width: 2vw;
+    border-radius: 50%;
+    left: 34%;
+    border: 5px solid white;
+
+}
+.name{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+#aboutme{
+    color: black;
+    position: relative;
+    display:block;
+    background-color: gray;
+    width: 25vw;
+    height: 50vh;
+    margin-left: 7.5%;
+    margin-top: 7.5%;
+    font-family: 'brandon-grotesque regular', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+#aboutme-bdesign{
+    margin-left: 10%;
+    border-radius: 5%;
+    border: 10px solid gray;
+    position: relative;
+    display:block;
+    width: 30vw;
+    height: 60vh;
+}
+
+#intro{
+    display: flex;
+}
+#contacts{
+    color: black;
+    position: relative;
+    display:block;
+    background-color: gray;
+    width: 25vw;
+    height: 50vh;
+    margin-left: 7.5%;
+    margin-top: 7.5%;
+    font-family: 'brandon-grotesque regular', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#projects{
+    margin-top: 2%;
+    margin-left: 10%;
+    border-radius: 2%;
+    border: 10px solid gray;
+    position: relative;
+    display:block;
+    width: 71vw;
+    height: 60vh;
+}
+#pro-ject{
+    color: black;
+    position: relative;
+    display:block;
+    background-color: gray;
+    width: 25vw;
+    height: 50vh;
+    margin-left: 7.5%;
+    margin-top: .9%;
+    font-family: 'brandon-grotesque regular', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
